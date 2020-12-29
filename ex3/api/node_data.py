@@ -8,7 +8,7 @@ class node_data:
         srcNi=dict()
         destNi=dict()
 
-    def __init__(self,info,tag,weight,pos)
+    def __init__(self,info,tag,weight,pos):
         #self._key=key
         self._info=info
         self._tag=tag
@@ -56,6 +56,7 @@ class node_data:
 
     def get_dest_Ni(self):
         return self.destNi.values()
+
     def hasNi(key):
         if key in srcNi:
             return true
@@ -76,6 +77,7 @@ class node_data:
     def clear_src():
         for x in range (len(srcNi)):
         del srcNi[x]
+
     def clear_src():
         for x in range (len(destNi)):
         del destNi[x]
